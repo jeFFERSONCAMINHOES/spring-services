@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "UserAPIApplication",
+            "request": "launch",
+            "mainClass": "com.example.demo.UserAPIApplication",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserDatabaseApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.demo.UserDatabaseApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
